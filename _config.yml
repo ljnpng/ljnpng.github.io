@@ -8,12 +8,12 @@ subtitle: ''
 description: ''
 keywords:
 author: ljnpng
-language: zh
+language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://ljnpng.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,7 +98,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
