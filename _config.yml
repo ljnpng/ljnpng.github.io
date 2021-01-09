@@ -107,3 +107,30 @@ deploy:
   repo: git@github.com:ljnpng/ljnpng.github.io.git
   # example, https://github.com/hexojs/hexojs.github.io
   branch: main
+
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css  
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
